@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contar de 1 a 5, cuales son pares o impares</title>
+</head>
+<body>
+    <script>
+
+        let contar
+        let numero
+
+        contar = 0
+        numero = 5
+
+        while(contar<numero){
+            contar = contar + 1
+            if(contar%2==0){
+            console.log(contar + " Es par")
+            }
+            else{
+                console.log(contar + " Es impar")
+            }
+
+        }
+//Contar hasta 5 con ciclo for
+        console.log("Contar con ciclo for")
+
+        for(contar = 1; contar<=numero; contar++){
+            if(contar%2==0){
+                console.log(contar + " Es par")
+                }
+                else{
+                    console.log(contar+ " Es impar")
+                }
+        }
+
+    </script>
+</body>
+</html>

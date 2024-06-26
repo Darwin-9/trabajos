@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calcular 3 notas</title>
+</head>
+<body>
+    <script>
+        let n1 = 2
+        let n2 = 5
+        let n3 = 3
+        let porce1 
+        let porce2
+        let porce3
+        let suma
+
+        porce1= n1 * 0.2
+        porce2= n2 * 0.35
+        porce3= n3 * 0.45
+
+        suma= porce1 + porce2 + porce3
+
+        console.log("El porcentaje de la nota 1 es: " +porce1)
+        console.log("El porcentaje de la nota 2 es: " +porce2)
+        console.log("El porcentaje de la nota 3 es: " +porce3)
+
+       if(suma>4.5){
+        console.log("la calificación es superior " +suma)
+       }
+       else{
+        if(suma<=4.5 && suma>3.5){
+            console.log("la calificación es buena " +suma)
+        }
+        else{
+            if(suma<=3.5 && suma>= 3){
+                console.log("la calificación es media " +suma)
+            }
+            else{
+                console.log("la calificación es mala " +suma)
+            }
+        }
+       }
+    </script>
+</body>
+</html>

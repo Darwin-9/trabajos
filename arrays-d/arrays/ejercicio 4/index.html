@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tablero bingo</title>
+</head>
+<body>
+    <script>
+        let matrixBingo=["B","I","N","G","O"]
+        let matrix=[]
+        let numero = Math.floor(Math.random() * 100) ;
+
+       /* for(let filaBingo=0; filaBingo<5;filaBingo++){
+            matrix[filaBingo]=[]
+            for(let columnaBingo=0; columnaBingo<5;columnaBingo++){
+            matrix[filaBingo][columnaBingo]=numero++
+            }
+        } */
+
+        for(let filaBingo=0; filaBingo<5;filaBingo++){
+            matrix[filaBingo]=[]
+            for(let columnaBingo=0; columnaBingo<5;columnaBingo++){
+            matrix[filaBingo][columnaBingo]=numero++
+            }
+        }
+        
+        
+
+      console.log(matrixBingo)
+      console.log(matrix)
+      
+        
+    </script>
+    
+</body>
+</html>

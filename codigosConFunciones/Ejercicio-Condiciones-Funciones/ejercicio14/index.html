@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pago total de el sueldo de una persona</title>
+    <script src="js/pagoTotal.js"></script>
+</head>
+<body>
+    <script>
+        let diasTrabajados = 20
+        let valorDia = 4500
+
+        let sueldo = salario(diasTrabajados,valorDia)
+        let subsidioTransporte = subTrans(diasTrabajados,valorDia)
+        let descuentoSalud = salud(diasTrabajados,valorDia)
+        let descuentoPension = pension(diasTrabajados,valorDia)
+        let descuentoArl = arl(diasTrabajados,valorDia)
+        let retencionCuenta = retencion(diasTrabajados,valorDia)
+        let totalDescuento = deduciones(diasTrabajados,valorDia)
+        let pagoTotal = pagoFinal(diasTrabajados,valorDia)
+
+        console.log("Como parametros")
+        console.log("Su salario es de:" + sueldo )
+        console.log("El subsidio de transporte es de: " + subsidioTransporte)
+        console.log("Su descuento en salud es: " + descuentoSalud)
+        console.log("Su descuento de pensión es: " + descuentoPension)
+        console.log("Su descuento en arl es: " + descuentoArl)
+        console.log("Su retención en la cuenta es: " + retencionCuenta)
+        console.log("El total de deducibles son: " + totalDescuento)
+        console.log("Su pago tota seria: " + pagoTotal)
+
+        let diasTrabajadosExp = 20
+        let valorDiaExp = 4500
+
+        let sueldoExp = salarioExp(diasTrabajadosExp,valorDiaExp)
+        let subsidioTransporteExp = subTransExp(diasTrabajadosExp,valorDiaExp)
+        let descuentoSaludExp = saludExp(diasTrabajadosExp,valorDiaExp)
+        let descuentoPensionExp = pensionExp(diasTrabajadosExp,valorDiaExp)
+        let descuentoArlExp = arlExp(diasTrabajadosExp,valorDiaExp)
+        let retencionCuentaExp = retencionExp(diasTrabajadosExp,valorDiaExp)
+        let totalDescuentoExp = deducionesExp(diasTrabajadosExp,valorDiaExp)
+        let pagoTotalExp = pagoFinalExp(diasTrabajadosExp,valorDiaExp)
+
+        console.log("Como expreciones")
+        console.log("Su salario es de:" + sueldoExp )
+        console.log("El subsidio de transporte es de: " + subsidioTransporteExp)
+        console.log("Su descuento en salud es: " + descuentoSaludExp)
+        console.log("Su descuento de pensión es: " + descuentoPensionExp)
+        console.log("Su descuento en arl es: " + descuentoArlExp)
+        console.log("Su retención en la cuenta es: " + retencionCuentaExp)
+        console.log("El total de deducibles son: " + totalDescuentoExp)
+        console.log("Su pago tota seria: " + pagoTotalExp)
+
+
+    </script>
+</body>
+</html>

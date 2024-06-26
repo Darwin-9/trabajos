@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabla del 9 que multiplique hasta 5 y si son pares o impares</title>
+</head>
+<body>
+    <script>
+
+        let multi
+        let num1
+        let num2
+        let result
+
+        multi = 0
+        num1 = 9
+        num2 = 5
+
+        while(multi<num2){
+            multi = multi + 1
+            result = multi * num1
+            
+            if(result%2==0){
+                console.log(num1+"x"+multi+"="+result+" Es par")
+            }
+            else{
+                console.log(num1+"x"+multi+"="+result+ " Es impar")
+            }
+        }
+
+//Contar hasta 5 con ciclo for
+
+        console.log("Contar con ciclo for")
+
+        for(multi = 1; multi<=num2; multi++){
+            result = multi * num1
+            if(result%2==0){
+                console.log(num1+"x"+multi+"="+result+" Es par")
+            }
+            else{
+                console.log(num1+"x"+multi+"="+result+" Es impar")
+            }
+        } 
+    </script>
+</body>
+</html>

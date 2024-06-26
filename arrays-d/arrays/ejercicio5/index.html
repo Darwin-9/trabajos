@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tienda</title>
+</head>
+<body>
+
+    <script>
+
+        let tienda = []
+        let neuvoProducto
+        let listaBusqueda = []
+
+        tienda = [
+            {producto: 'Arroz', tipoProducto: 'granos', tipoUnidad: 'gramos', cantidad: 1000, precio: 2450},
+            {producto: 'Papa', tipoProducto: 'fruver', tipoUnidad: 'gramos', cantidad: 500, precio: 1000},
+            {producto: 'Mora', tipoProducto: 'fruver', tipoUnidad: 'gramos', cantidad: 500, precio: 1500},
+            {producto: 'Trucha', tipoProducto: 'carnes', tipoUnidad: 'gramos', cantidad: 1000, precio: 9000},
+            {producto: 'Pollo Entero', tipoProducto: 'carnes', tipoUnidad: 'gramos', cantidad: 1000, precio: 4500},  
+        ]
+
+        neuvoProducto = {producto: 'Res', tipoProducto: 'carnes', tipoUnidad: 'gramos', cantidad: 1000, precio: 7500}
+        tienda.push(neuvoProducto);
+
+        for(let iteracion = 0; iteracion < tienda.length; iteracion++){
+            console.log(tienda[iteracion])
+            if(tienda[iteracion].tipoProducto === 'fruver'){
+                listaBusqueda.push(tienda[iteracion])
+            }
+        }
+
+        console.log(listaBusqueda)
+    </script>
+    
+</body>
+</html>
