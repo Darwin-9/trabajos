@@ -1,0 +1,74 @@
+.caja-b{
+    display: grid;
+    grid-template-rows: repeat(5, 1fr);
+    grid-gap: 0px
+
+ }
+ 
+.numero-b{
+    text-align: center;
+    padding: 10px;
+    margin: 2px;
+    border: solid 2px rgb(218, 8, 8);
+    color: beige;
+}
+ 
+.caja-i{
+    display: grid;
+    grid-template-rows: repeat(5, 1fr);
+    grid-gap: 0px;
+
+}
+ 
+.numero-i{
+    text-align: center;
+    padding: 10px;
+    margin: 2px;
+    border: solid 2px rgb(218, 8, 8);;
+    color: beige;
+}
+
+.caja-n{
+    display: grid;
+    grid-template-rows: repeat(5, 1fr);
+    grid-gap: 0px;
+
+}
+ 
+.numero-n{
+    text-align: center;
+    padding: 10px;
+    margin: 2px;
+    border: solid 2px rgb(218, 8, 8);
+    color: beige;
+}
+
+.caja-g{
+    display: grid;
+    grid-template-rows: repeat(5, 1fr);
+    grid-gap: 0px;
+
+}
+ 
+.numero-g{
+    text-align: center;
+    padding: 10px;
+    margin: 2px;
+    border: solid 2px rgb(218, 8, 8);
+    color: beige;
+}
+
+.caja-o{
+    display: grid;
+    grid-template-rows: repeat(5, 1fr);
+    grid-gap: 0px;
+
+}
+ 
+.numero-o{
+    text-align: center;
+    padding: 10px;
+    margin: 2px;
+    border: solid 2px rgb(218, 8, 8);
+    color: beige;
+}
